@@ -17,7 +17,7 @@ const productSchema = new Schema<IProduct>(
         listPrice:{type: Number, required: true},
         countInStock:{type: Number, required: true},
         tags:{type:[String],default:['new arrival']},
-        color:{type:[String],default:['White','Red','Black']},
+        colors:{type:[String],default:['White','Red','Black']},
         sizes:{type:[String],default:['S','M','L']},
         avgRating:{
             type:Number,
